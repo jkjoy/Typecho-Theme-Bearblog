@@ -1,6 +1,6 @@
 <?php 
 /**
- * archives
+ * 文章归档
  *
  * @package custom
  */
@@ -33,7 +33,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
                                 <?php endwhile; ?>
                             </div>
                         <?php else: ?>
-                           
                         <?php endif; ?>
 </main>
 <?php $this->need('footer.php'); ?>

@@ -9,13 +9,12 @@
 <time datetime="<?php $this->date('c'); ?>">
 <?php $this->date('Y-m-d H:m'); ?>
 </time>
-· 
-</i><?php $this->category(' · '); ?>
- · <?php $this->options->addpost() ?>
+ · </i><?php $this->category(' · '); ?>
+<?php $this->options->addpost() ?>
 </p>
 <?php $this->content(); ?>
 <div style="text-align:center;color: #ccc;font-size:14px;">
-    ------ THE END ------
+------ THE END ------
 </div>
 <p class="tags">
 <?php if ($this->tags): ?>
@@ -25,7 +24,6 @@
 <?php echo $tag['name']; ?></a>
 <?php endforeach; ?>
 <?php else: ?>
-
 <?php endif; ?>
 </p>
 <?php $this->options->addcomment() ?>

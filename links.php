@@ -1,6 +1,6 @@
 <?php 
 /**
- * links
+ * 友情链接
  *
  * @package custom
  */

@@ -7,7 +7,7 @@ function themeConfig($form)
         'logoUrl',
         null,
         null,
-        _t('站点 LOGO 地址'),
+        _t('站点 favicon 地址'),
         _t('在这里填入一个图片 URL 地址')
     );
     $form->addInput($logoUrl);
@@ -39,7 +39,7 @@ function themeConfig($form)
         'addcomment',
         null,
         null,
-        _t('评论系统,如twikoo artalk gitalk 等'),
+        _t('评论系统,如Twikoo Artalk Gitalk 等'),
         _t('支持HTML')
     );
     $form->addInput($addcomment);

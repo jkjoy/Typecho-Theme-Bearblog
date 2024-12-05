@@ -21,6 +21,5 @@ $this->need('header.php');
     <?php $this->sticky();$this->title() ?></a> </li>
 <?php endwhile; ?>
 </ul>
- 
 </main>
 <?php $this->need('footer.php'); ?>

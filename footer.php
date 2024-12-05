@@ -4,9 +4,8 @@
 <?php $this->options->addfoot() ?>
 </span>
 <span>
-&copy; <?php $this->date('Y'); ?>  <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a> |
-Powered by Tpyecho & bear |
-Theme by <a href="https://www.imSun.org" href="_blank" >Sun </a>
+&copy; <?php $this->date('Y'); ?>  <?php $this->options->title(); ?> |
+Powered by Tpyecho | Theme by bear  | <a href="https://www.imSun.org" href="_blank" >Sun </a>
 </span>
 </footer>
 </body>
