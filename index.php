@@ -2,10 +2,10 @@
 /**
  * BearBlog theme for Typecho
  *
- * @package Bear Theme
+ * @package Bearblog Theme
  * @author Sun
- * @version 1.0.1
- * @link http://imsun.org
+ * @version 1.0.2
+ * @link http://imsun.pw
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('header.php');
