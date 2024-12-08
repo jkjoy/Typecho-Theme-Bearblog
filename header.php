@@ -28,9 +28,9 @@
 <body class="home">
 <header>
 <a class="title" href="/">
-<h1>
+<h2>
 <?php $this->options->title() ?>
-</h1>
+</h2>
 </a>
 <nav>
     <p>                    

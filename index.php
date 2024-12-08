@@ -11,10 +11,10 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('header.php');
 ?>
 <main>
-<h1 id="hi-i-m-herman-martinus"> </h1>
+<h2 id="hi-i-m-herman-martinus"> </h2>
 <h3 id="i-m-a-maker-of-things-rider-of-bikes-and-hiker-of-mountains"> </h3>
 <p><?php $this->options->aboutme() ?> </p>
-<h1 id="my-most-popular-posts">文章列表</h1>
+<h2 id="my-most-popular-posts">最近更新</h2>
 <ul>
 <?php while($this->next()): ?>
     <li><a href="<?php $this->permalink() ?> ">
