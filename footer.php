@@ -5,7 +5,7 @@
 </span>
 <span>
 &copy; <?php $this->date('Y'); ?>  <?php $this->options->title(); ?> <br>
-Powered by Tpyecho <br> Theme by bearʕ•ᴥ•ʔ  <br> <a href="https://www.imSun.org" href="_blank" >Sun </a>
+Powered by Tpyecho <br> Theme by bearʕ•ᴥ•ʔ   <a href="https://www.imSun.org" target="_blank"  style="display:none"> Sun </a>v1.0.2
 </span>
 </footer>
 </body>
