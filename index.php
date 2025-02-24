@@ -4,8 +4,8 @@
  *
  * @package Bearblog Theme
  * @author Sun
- * @version 1.0.2
- * @link http://imsun.pw
+ * @version 1.0.3
+ * @link http://www.imsun.pw
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('header.php');
@@ -17,7 +17,7 @@ $this->need('header.php');
 <h2 id="my-most-popular-posts">最近更新</h2>
 <ul>
 <?php while($this->next()): ?>
-    <li><a href="<?php $this->permalink() ?> ">
+    <li><?php $this->date('Y-m-d'); ?><a href="<?php $this->permalink() ?> ">
     <?php $this->sticky();$this->title() ?></a> </li>
 <?php endwhile; ?>
 </ul>
