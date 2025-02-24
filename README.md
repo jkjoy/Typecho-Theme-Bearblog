@@ -1,8 +1,13 @@
-# Typecho-Theme-Bearblog
-> 一个简洁、优雅、快速的Typecho主题。
-移植Bearblog到Typecho
+## 简介 
+Typecho-Theme-Bearblog
 
-可使用官方的CSS
+> 一个简洁、优雅、快速的Typecho主题。
+移植Bearblog到Typecho,实现基本功能
+
+## 预览
+![截图](https://raw.githubusercontent.com/jkjoy/Typecho-Theme-Bearblog/refs/heads/main/screenshot.webp)
+
+## 使用
 
 预留几个可能用到的设置
 
